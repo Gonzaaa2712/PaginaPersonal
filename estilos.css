@@ -1,0 +1,21 @@
+.colorPrincipal{
+    background-color:#1565C0 !important;
+}
+
+
+.colorTexto{
+    color:#1565C0 !important;
+}
+
+.fondo {
+    background-image: url('img/header-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section {
+
+    margin: 10px 5px;
+
+}
+
