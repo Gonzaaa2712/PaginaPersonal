@@ -11,6 +11,7 @@
     background-image: url('img/header-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #1565C0;
 }
 
 .section {
@@ -25,5 +26,12 @@
 
 .colorBoton {
     background-color: #0b5ea1 !important;
+}
+
+.fotoPerfil {
+
+    background-color: greenyellow
+
+
 }
 
