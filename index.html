@@ -20,9 +20,9 @@
 	<title>Gonzalo Ramiro Muñoz</title>
 </head>
 
-<body class="grisOscuro">
+<body class="grisOscuro" id="cuerpo">
 	<div class="navbar-fixed">
-		<nav class="colorOscuro">
+		<nav id="barra" class="colorOscuro">
 			<div>
 				<div class="nav-wrapper">
 					<a href="#!" class="brand-logo" id="title">Gonzalo Ramiro Muñoz</a>
@@ -80,7 +80,7 @@
 	</section>
 
 
-	<section class="grisOscuro">
+	<section class="grisOscuro" id="seccionConocimientos">
 		<div class="container">
 			<div class="row">
 				<h4 class="center"><span class="colorTexto">Conocimientos</span> Actuales</h4>
@@ -174,15 +174,28 @@
 	</div>
 
 	<!-- Section: Footer -->
-	<footer class="section grisClaro white-text center">
+	<footer  id="pie" class="section grisClaro white-text center">
 		<quote class="flow-text">"Every great dream begins with a dreamer"</quote>
+		<br/><br/>
+
+		<div class="switch">
+			<label>
+				<i class="fas fa-moon fa-3x"></i>
+			  <input id="prueba" type="checkbox" onclick="modoClaro()">
+			  <span class="lever"></span>
+			  <i class="fas fa-sun change fa-3x"></i>
+			</label>
+		  </div>
+	
+
 	</footer>
 
 
 
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="funciones.js"></script>
 </body>
 
 </html>
